@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+
+# Distribution / build
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+
+# Docker
+# .dockerignore is used for Docker build context
+# Ignore Docker-related files that are not part of the source code
+# such as temporary build artifacts or generated volumes if not handled by docker-compose
+# However, for this project, the volumes in docker-compose.yml handle result_data,
+# so explicitly ignoring it here is also good practice.
+
+# Generated data
+result_data/

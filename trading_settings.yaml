@@ -1,0 +1,16 @@
+base_value: 100.0
+daily_shift_min: 0.005
+daily_shift_max: 0.1
+minute_shift_min: 0.005
+minute_shift_max: 0.01
+daily_surge_probability: 0.01
+daily_surge_limit: 2
+minute_surge_probability: 0.001
+minute_surge_limit: 0.2
+trading_day_start: "09:30"
+trading_day_end: "16:00"
+rounding_precision: 2
+ticks_per_minute_min: 0
+ticks_per_minute_max: 70
+volume_min: 1
+volume_max: 10000

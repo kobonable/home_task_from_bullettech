@@ -1,0 +1,8 @@
+services:
+  ohlcdriver:
+    image: ohlcdriver
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./result_data:/app/result_data
